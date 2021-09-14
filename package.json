@@ -1,0 +1,17 @@
+{
+  "name": "express-sqlite-api",
+  "version": "1.0.0",
+  "description": "Express SQL REST API",
+  "main": "node server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alvin Pogi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "nstall": "^0.2.0",
+    "sqlite3": "^5.0.2"
+  }
+}
