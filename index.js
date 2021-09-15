@@ -8,7 +8,7 @@ app.use(express.urlencoded({extended: true}))
 var HTTP_PORT = process.env.PORT || 5050; 
 // Start server
 app.listen(HTTP_PORT, () => {
-    console.log("Server running on port %PORT%".replace("%PORT%",HTTP_PORT))
+    console.log("Server running on this port %PORT%".replace("%PORT%",HTTP_PORT))
 });
 // Root endpoint
 app.get("/", (req, res, next) => {
